@@ -1,0 +1,48 @@
+[ 2013-11-25T22:05:09+08:00 ] 127.0.0.1 /uploads/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028772s ]
+NOTIC: [8] Undefined index: 1 E:\wamp\www\uploads\AI9ME\_Core\Lib\Core\Action.class.php 第 57 行.
+NOTIC: [8] Undefined index: 1 E:\wamp\www\uploads\AI9ME\_Core\Lib\Core\View.class.php 第 70 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031639s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' E:\wamp\www\uploads\AI9MEdata\logs\Cache\Home\4ee9e44c0b1d69ec34c7f11beb4c351f.php 第 29 行.
+NOTIC: [8] Undefined index: uid E:\wamp\www\uploads\AI9MEdata\logs\Cache\Home\4ee9e44c0b1d69ec34c7f11beb4c351f.php 第 29 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034760s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.067764s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.068750s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069669s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003498s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2013-11-25T22:05:25+08:00 ] 127.0.0.1 /uploads/index.php?m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8] Undefined index: 1 E:\wamp\www\uploads\AI9ME\_Core\Lib\Core\Action.class.php 第 57 行.
+NOTIC: [8] Undefined index: 1 E:\wamp\www\uploads\AI9ME\_Core\Lib\Core\View.class.php 第 70 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044810s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' E:\wamp\www\uploads\AI9MEdata\logs\Cache\Home\a8fb9284af83c661cc5048ce58491cb2.php 第 28 行.
+NOTIC: [8] Undefined index: uid E:\wamp\www\uploads\AI9MEdata\logs\Cache\Home\a8fb9284af83c661cc5048ce58491cb2.php 第 28 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.045719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021115s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066920s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067717s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.068540s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070271s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000978s ]
+
